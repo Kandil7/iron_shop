@@ -28,7 +28,8 @@ class ProductListScreen extends StatelessWidget {
           }
           return Container();
         },
-      ),
+      )
+
     );
   }
 }

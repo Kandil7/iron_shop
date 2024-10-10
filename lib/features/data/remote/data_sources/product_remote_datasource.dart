@@ -10,4 +10,10 @@ class ProductRemoteDataSource {
     final snapshot = await firestore.collection('products').get();
     return snapshot.docs.map((doc) => ProductModel.fromJson(doc.data())).toList();
   }
+
+  createProduct(product) {
+
+    
+
+  }
 }
